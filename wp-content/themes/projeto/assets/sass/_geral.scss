@@ -1,0 +1,268 @@
+.flexMode{
+  display: flex;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+}
+
+.container-fluid{
+  padding: 0px;
+}
+
+.n{
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.pagination{
+  padding-top: 30px;
+  display: table;
+  margin: auto;
+  .page-numbers{
+    margin: 0px 5px;
+    padding: 10px 15px;
+    color: $cor1;
+    border: 2px solid $cor1;
+    &:hover{
+      @extend .current;
+      a{
+        text-decoration: none;
+      }
+    }
+  }
+  .current{
+    border: 2px solid $cor1;
+    color: #fff;
+    background: $cor1;
+  }
+}
+
+img{
+  max-width: 100%;
+}
+
+html, body {
+  height: 100%;
+  font-family: azo-sans-web, sans-serif;
+  font-weight: 400;
+  scroll-behavior: smooth;
+  font-style: normal;
+}
+
+.fill { 
+  min-height: 100%;
+  height: 100%;
+}
+
+.bg-cover{
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+.bg-fixed{
+  background-attachment: fixed;
+}
+
+.heade-page{
+  padding: 0px !important;
+  .cor{
+    text-align: center;
+    padding: 160px 0px 100px 0px;
+    color: #fff;
+    font-family: abril_fatfaceregular;
+    word-spacing: 10px;
+    width: 100%;
+    display: table;
+    background: rgba(#000, 0.6);
+  }
+}
+
+.titulo_page{
+  text-transform: uppercase;
+  color: $cor1;
+  .barra{
+    width: 40px;
+    margin: 30px 0px;
+    height: 4px;
+    background: $cor1;
+  }
+}
+
+.page{
+  padding: 30px 0px;
+}
+
+.btnPadrao{
+  display: table;
+  a{
+    display: table;
+    width: auto;
+    padding: 15px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: $cor1;
+    border: 2px solid $cor1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  &:hover{
+    a{
+      background: $cor1;
+      color: #fff;
+    }
+  }
+}
+
+.btnPadrao{
+  display: table;
+  a{
+    display: table;
+    width: auto;
+    padding: 10px 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: $cor1;
+    border: 2px solid $cor1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  &:hover{
+    a{
+      background: $cor1;
+      color: #fff;
+    }
+  }
+}
+
+.btnPadrao_b{
+  display: table;
+  a{
+    display: table;
+    width: auto;
+    padding: 10px 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #fff;
+    border: 2px solid #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  &:hover{
+    a{
+      background: #fff;
+      color: $cor1;
+    }
+  }
+}
+.btnPadrao_f{
+  display: table;
+  a{
+    display: table;
+    width: auto;
+    padding: 15px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background: $cor1;
+    color: #fff;
+    border: 2px solid $cor1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  &:hover{
+    a{
+      background: $cor1;
+      color: #fff;
+    }
+  }
+}
+
+.upTop{
+  display: none;
+}
+
+.mar-auto{
+  margin: auto;
+  display: table;
+}
+@media (max-width: 576px) {
+  .fill{
+    height: auto;
+    min-height: auto;
+  }
+  .page{
+    text-align: justify;
+    img{
+      margin-bottom: 30px;
+    }
+  }
+  .heade-page{
+    h1{
+      font-size: 25px !important;
+    }
+  }
+  .btnPadrao, .btnPadrao_f{
+    display: table;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    a{
+      display: table;
+      font-size: 12px !important;
+      letter-spacing: 2px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .upTop{
+    background: $cor1;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 100%;
+    display: table;
+    position: fixed;
+    z-index: 9999;
+    bottom: 15px;
+    right: 15px;
+    padding-top: 5px;
+    a{
+      color: #fff;
+    }
+  }
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 1200px) {
+}

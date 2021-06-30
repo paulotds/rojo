@@ -1,0 +1,66 @@
+@mixin scale($var) {
+  -webkit-transform: scale($var);
+  -moz-transform: scale($var);
+  -o-transform: scale($var);
+  transform: scale($var);
+}
+
+@mixin rotate($var) {
+  -webkit-transform: rotate($var);
+  -moz-transform: rotate($var);
+  -o-transform: rotate($var);
+  transform: rotate($var);
+}
+
+@mixin trans($var, $var2) {
+  -webkit-transition: $var $var2;
+  -moz-transition: $var $var2;
+  -o-transition: $var $var2;
+  transition: $var $var2;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin padding-box($p) {
+  padding: $p;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+}
+
+.justify-content {
+  justify-content: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+}
+
+.align-items {
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+}
+
+.box-sizing {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}

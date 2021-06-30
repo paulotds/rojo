@@ -1,0 +1,867 @@
+.modal-backdrop.show {
+    opacity: .8;
+}
+
+.sidebar a img {
+    border-radius: 100%;
+}
+
+.sidebar a span {
+    background: #e33035;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.sidebar a:hover span {
+    background: #8e1518;
+}
+
+.sidebar a {
+    color: #ffff;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.modal-body .sidebar {
+    position: absolute;
+    top: 101px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 70px;
+}
+
+.modal-body {
+    padding-right: 100px;
+}
+
+.modal-content {
+    background-color: transparent;
+}
+
+.autor_port {
+    display: flex;
+    font-size: 16px;
+    color: #ffff;
+    margin-bottom: 15px;
+    flex-direction: column;
+}
+
+.autor_port a {
+    color: #fff;
+}
+
+.carousel-item{
+    cursor:pointer;
+}
+
+.servi .servicos-2 .card .card-header{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.servi .servicos-2 .card .card-body{
+    text-align:center;
+    padding:0 33px;
+}
+
+.titulo-abouts{
+    display:none;
+}
+ #D .servicos_3{
+         display:none;
+     }
+.empresas{
+    padding:50px 0;
+}
+
+.servi{
+    background-position: 0 40px !important;
+}
+
+.servicos_2 .blog_2 a{
+    color: #656565;
+    text-decoration:none;
+}
+.servicos_2 .blog_2 a:hover{
+    color:#fff;
+    
+}
+
+.logo_principal-1{
+    width: 3%;
+    position: absolute;
+    z-index: 124243434;
+    left:18%;
+    top:26px;
+    filter:saturate(2.3);
+}
+
+.red-pill{
+    display: flex; 
+    align-items: center;
+}
+
+
+
+@media (max-width: 767px){
+    .red-pill{
+    display: flex; 
+    align-items: center;
+    justify-content:center !important;
+    }
+    .red-pill h4{
+        font-size:2rem;
+        margin:30px 0 !important;
+    }
+    
+    #blog-header .header_left .sociais h1{
+        font-size: 2.5rem !important;
+    }
+    #blog-contents .blog-content{
+        padding: 70px 10px !important;
+    }
+    
+    #blog-header .header_left{
+        padding: 0 10px !important;
+    }
+
+    .modal-body .sidebar {
+        top: auto;
+        right: auto;
+        flex-direction: row;
+        max-width: 7000px;
+        padding: 30px 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .sidebar a img {
+        border-radius: 100%;
+        min-width: 40px !important;
+        height: 40px;
+    }
+    
+    .modal-body {
+        padding-right: 1rem;
+    }
+    
+    .sidebar a {
+        margin-right: 20px;
+    }
+
+}
+
+
+.carousel-item {
+    background: red;
+}
+
+#A{
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-item img {
+    opacity: .7;
+    filter: grayscale(1);
+    mix-blend-mode: luminosity;
+    transition: all .3s;
+}
+
+.carousel-item:hover img {
+    opacity: 1;
+    filter: grayscale(0);
+    mix-blend-mode: initial;
+}
+
+.scroll-magic, .scroll-magic1, .scroll-magic2{
+    width: 80vh;
+    height: 80vh;
+}
+
+.slide-col11{
+    padding: 112px 0;
+    display: flex;
+    flex-direction: row;
+}
+#C .titulo-about h1 span img {
+    max-width:70%;
+}
+
+.empresas{
+      width:100%;
+      background:transparent;
+      display:flex;
+      justify-content:center;
+      padding: 50px 70px 100px 70px;  
+}
+
+.dots-mobile{
+    display: none;
+}
+
+
+
+@media (min-width: 1366px) and (max-width: 1920px){
+    
+    .scroll-magic, .scroll-magic2, .scroll-magic1{
+        height:75vh;
+        width:75vh;
+    }
+}
+
+@media (min-width: 1230px) and (max-width: 1365px){
+    .scroll-magic2, .scroll-magic1, .scroll-magic{
+       height:70vh;
+        width:70vh; 
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1229px){
+     .scroll-magic2, .scroll-magic1{
+         display:none !important;
+     }
+    .scroll-magic{
+        height:80vh;
+        width:80vh;
+    }
+}
+
+@media (max-width: 600px){
+    
+    .slide-col11 #carouselExampleIndicators1{
+    display:flex !important;
+}
+
+.slide-col11 #carouselExampleIndicators{
+    display:none !important;
+}
+    
+    .red-pill{
+    display: flex; 
+    align-items: center;
+    justify-content:center !important;
+    }
+    .red-pill h4{
+        font-size:2rem;
+        margin:30px 0 !important;
+    }
+    
+    #blog-header .header_left .sociais h1{
+        font-size: 2.5rem !important;
+    }
+    #blog-contents .blog-content{
+        padding: 70px 10px !important;
+    }
+    
+    #blog-header .header_left{
+        padding: 0 10px !important;
+    }
+    .logo_principal-1{
+        width: 8%;
+        position: absolute;
+        z-index: 124243434;
+        left: 8%;
+        top: 26px;
+        filter: saturate(2.3);
+    }
+    
+    .empresas .slick-slider{
+        flex-direction:column;
+    }
+    .empresas .slick-dots {
+    display: flex;
+    width: auto;
+    margin: auto;
+    margin-top: 40px;
+    padding: 0;
+    justify-content:center;
+    align-items:center;
+    }
+    
+    .slick-dots {
+    display: table;
+    width: auto;
+    margin: auto;
+    margin-top:20px;
+    padding: 0;
+    }
+    .slick-dots li {
+    list-style-type: none;
+    display: table;
+    float: left;
+    margin: 0 5px;
+    }
+    .slick-dots li button {
+    width: 13px;
+    height: 13px;
+    overflow: hidden;
+    background: none;
+    color: #00639F;
+    border: 1px solid #fff;
+    border-radius: 41px;
+    margin: -1px;
+    font-size: 0;
+    }
+    .slick-dots .slick-active button{
+        background: #fff;
+    }
+    
+    .dots-mobile{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-left:52px;
+}
+.dots-mobile .carousel-indicators{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    position: relative;
+    width: 20px;
+    margin-left: 9%;
+}
+
+.dots-mobile .carousel-indicators .dot{
+    list-style-type: none;
+    display: table;
+    float: left;
+    margin: 0 5px;
+    width: 10px;
+    height: 8px;
+    overflow: hidden;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 45px;
+    margin: 0 8px;
+    font-size: 0;
+    opacity: 1;    
+}
+
+.dots-mobile .carousel-indicators .dot:active{
+    background:#fff;
+}
+.dots-mobile .carousel-indicators .active{
+    background:#fff;
+    padding:0;
+}
+    
+    
+    .titulo-abouts{
+        width: 100%;
+        background: url('../img/bg-2-1.png');
+        background-position: initial;
+        background-size:inherit;
+        height: 11%;
+        position: relative;
+        display:flex;
+    }
+    .titulo-abouts h1{
+        padding-top: 22px;
+        margin-left: -34px;
+}
+.titulo-abouts img{
+    z-index: 1 !important;
+    position: absolute;
+    width: 100%;
+}
+    
+    .empresas{
+      padding: 0px 0 50px 0;  
+      background: url('../img/bg_principal.jpg') !important;
+    }
+    
+    .empresas img{
+        margin:auto;
+    }
+    
+    section{
+        min-height:auto;
+    }
+    
+    nav{
+        display:none !important;
+    }
+    
+    .slide-col11{
+    padding: 0px 0;
+    
+}
+
+#B .ddd .dots{
+    display:none;
+}
+    #C .titulo-about h1{
+        margin-top: -100px;
+        margin-left: -19px;
+    }
+    #B{
+        background-position: center;
+        padding:0px !important;
+        height: 77vh;
+    }
+    #B .texto-360{
+        display:flex;
+        top: 50%;
+        left: -2%;
+        width: 160px;
+        height: 160px;
+    }
+    .slick-prev, .slick-next{
+        display:none !important;    
+    }
+    
+    .scroll-magic{
+        width: 40vh;
+        height: 40vh;
+        transform: scale(1.8);
+    }
+     #A .container-fluid .banner2{
+         display:flex;
+         flex-direction:column;
+         align-items:center;
+         justify-content:center;
+         padding:30px 25px;
+     }
+     #A .container-fluid .banner2 .image1{
+         padding:20px 0;
+     }
+     #A .container-fluid .banner2 .image2{
+         padding:20px 0;
+     }
+     #C .titulo-about h1 span img{
+         max-width:91% !important;
+     }
+     
+     #D .servi .servicos-1{
+             padding: 55px 12px;
+
+     }
+     #D .servi .servi-2 .servicos-2 .card{
+         align-items:center;
+     }
+     .servi .servicos-2 .card .card-body p{
+         text-align:center;
+     }
+     #D .servicos_3{
+         display:none;
+     }
+     
+     #D .servi{
+         background: url('../img/bg_principal.jpg') !important;
+     }
+     
+     #D .servicos_2{
+         background: url('../img/bg_principal.jpg') !important;
+     }
+     #D{
+         margin-top:-1px;
+     }
+     
+     #E{
+         height:auto !important;
+         display:flex;
+         justify-content:end;
+         max-height:auto;
+         min-height:auto;
+     }
+     #E .container .titulo_footer{
+         display:none;
+     }
+     #E .footer{
+         padding: 0 0;
+     }
+     #E .footer .map{
+         order:1;
+         margin-top:-29px;
+     }
+      #E .footer .itens{
+          order:2;
+      }
+     .scroll-magic1, .scroll-magic2{
+         display:none !important;
+     }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    
+    .empresas .slick-slider{
+        flex-direction:column;
+    }
+    .empresas .slick-dots {
+    display: flex;
+    width: auto;
+    margin: auto;
+    margin-top: 40px;
+    padding: 0;
+    justify-content:center;
+    align-items:center;
+    }
+    
+    .slick-dots {
+    display: table;
+    width: auto;
+    margin: auto;
+    margin-top: 40px;
+    padding: 0;
+    }
+    .slick-dots li {
+    list-style-type: none;
+    display: table;
+    float: left;
+    margin: 0 5px;
+    }
+    .slick-dots li button {
+    width: 1px;
+    height: 13px;
+    overflow: hidden;
+    background: none;
+    color: #00639F;
+    border: 1px solid #fff;
+    border-radius: 41px;
+    margin: -1px;
+    font-size: 0;
+    }
+    .slick-dots .slick-active button{
+        background: #fff;
+    }
+    
+    .dots-mobile{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-left:52px;
+}
+.dots-mobile .carousel-indicators{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    position: relative;
+    width: 20px;
+    margin-left: 9%;
+}
+
+.dots-mobile .carousel-indicators .dot{
+    list-style-type: none;
+    display: table;
+    float: left;
+    margin: 0 5px;
+    width: 11px;
+    height: 9px;
+    overflow: hidden;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 45px;
+    margin: 0 8px;
+    font-size: 0;
+    opacity: 1;    
+}
+
+.dots-mobile .carousel-indicators .dot:active{
+    background:#fff;
+}
+.dots-mobile .carousel-indicators .active{
+    background:#fff;
+    padding:0;
+}
+    
+    .titulo-abouts{
+        width: 100%;
+        background: url('../img/bg-2-1.png');
+        background-position: initial;
+        background-size:inherit;
+        height: 11%;
+        position: relative;
+        display:flex;
+    }
+    .titulo-abouts h1{
+        padding-top: 22px;
+        margin-left: -34px;
+}
+.titulo-abouts img{
+    z-index: 1 !important;
+    position: absolute;
+    width: 100%;
+}
+    
+    .about .col-md-6{
+        max-width:100%;
+        flex: 0 0 100%;
+    }
+    
+    .empresas{
+      padding: 0px 0 50px 0;  
+      background: transparent;
+    }
+    
+    .empresas img{
+        margin:auto;
+    }
+    
+    section{
+        min-height:auto;
+    }
+    
+    nav{
+        display:none !important;
+    }
+    
+    .slide-col11{
+    padding: 0px 0;
+    
+    
+    }
+    
+    #carouselExampleIndicators .col-md-9{
+        max-width:100%;
+        flex:100%;
+    }
+    
+    #B .ddd{
+        display:none;
+    }
+    #B .ddd .dots{
+        display:none;
+    }
+    
+    #C .titulo-about h1{
+        margin-top: -320px;
+        margin-left: -40px;
+    }
+    
+    #C{
+        height:75vh !important;
+    }
+    #B{
+        background-position: center;
+        padding:0px !important;
+        height: 83vh;
+        margin-top: -1px;
+    }
+    #B .texto-360{
+        display:flex;
+        top: 100%;
+        left: -2%;
+        width: 160px;
+        height: 160px;
+    }
+    .slick-prev, .slick-next{
+        display:none !important;    
+    }
+    
+    .scroll-magic{
+        width: 40vh;
+        height: 40vh;
+        transform: scale(1.8);
+    }
+     #A .container-fluid .banner2{
+         display:flex;
+         flex-direction:column;
+         align-items:center;
+         justify-content:center;
+         padding:30px 25px;
+     }
+     #A .container-fluid .banner2 .image1{
+         padding:20px 0;
+     }
+     #A .container-fluid .banner2 .image2{
+         padding:20px 0;
+     }
+     #C .titulo-about h1 span img{
+         max-width:91% !important;
+     }
+     
+     #D .container{
+         flex-direction:column;
+     }
+     
+     
+     #D .servi .servicos-1{
+             padding: 0px 12px;
+             max-width:100%;
+     }
+     
+     #D .servi-2{
+         max-width:100%;
+     }
+     #D .servi .servicos-1 p{
+         padding: 26px 0px;
+     }
+     #D .servi .servicos-1 .col-md-4{
+        flex: 0 0 100%;
+        max-width:84%;
+     }
+     
+     #D .servi .servi-2 .servicos-2 .card-header{
+        align-items:center;
+        justify-content:center;
+        display:flex;
+        flex-direction:column;
+     }
+     #D .servi .servi-2 .servicos-2 .card{
+         align-items:center;
+     }
+     .servi .servicos-2 .card .card-body {
+         text-align:center;
+         padding: 0 10px;
+     }
+     #D .servicos_3{
+         display:none;
+     }
+     
+     #D .servi{
+         background: transparent;
+     }
+     
+     #D .servicos_2{
+         background: transparent;
+         height:auto;
+         width:100%;
+     }
+     .servicos_2 .blog_3{
+         max-width:100%;
+         padding:52px 0;
+     }
+     .servicos_2 .blog_2{
+         padding:0;
+         margin-left:15px;
+     }
+     #D{
+         margin-top:-1px;
+         padding:0 60px;
+     }
+     
+     .servicos_2 .blog{
+         max-width:100%;
+         padding:40px 0;
+     }
+     
+     #E{
+         height:auto;
+     }
+     #E .container .titulo_footer{
+         display:flex;
+     }
+     #E .footer{
+         padding: 0 0;
+     }
+     #E .footer .map{
+         order:1;
+         margin-top:-29px;
+     }
+      #E .footer .itens{
+          order:2;
+      }
+     .scroll-magic1, .scroll-magic2{
+         display:none !important;
+     }
+    }
+
+
+
+/* ajustes blog*/
+
+@font-face {
+	font-family: 'chaney-regular';
+	src: url('../fonts/chaney/chaney-regular-webfont.woff2') format('woff2'),
+	url('../fonts/chaney/chaney-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'chaney-extended';
+	src: url('../fonts/chaney/chaney-ultraextended-webfont.woff2') format('woff2'),
+	url('../fonts/chaney/chaney-ultraextended-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#blog-header .header_left {
+	 padding: 0;
+}
+ #blog-header .header_left .sociais h1 {
+	 font-family: 'chaney-regular' !important;
+	 font-size: 4.5rem;
+	 color: #fff !important;
+}
+ #blog-header .header_left .sociais h1 span {
+	 font-family: 'chaney-extended' !important;
+}
+
+#blog-contents{
+    background:url("../img/bg_principal.jpg") !important;
+}
+ #blog-contents .blog-content {
+	 font-family: 'latoregular';
+	 padding: 70px 0;
+	 font-size: 1.3rem;
+	 letter-spacing: 2px;
+	 font-weight: 600;
+	 
+}
+ #blog-contents .blog-content input[type="button"] {
+	 border: 1px solid #e52c2d;
+	 width: 150px;
+	 color: #fff;
+	 font-family: 'latothin';
+	 font-size: 1rem;
+	 margin: 5px 0;
+	 background: #e52c2d;
+	 border-radius: 5px;
+	 padding: 5px 2px;
+}
+ #blog-contents .blog-content h4 {
+	 font-family: 'chaney-regular';
+	 color: #e52c2d;
+	 margin: 0;
+}
+
+.col-md-3.itens{
+    display:none !important;
+}
+
+.slide-col11 #carouselExampleIndicators1{
+    display:none;
+}
+
+
+#B{
+    margin-top: -3px;
+}
+
+@media (min-width: 1800px) and (max-width: 1920px){
+    .scroll-magic, .scroll-magic2, .scroll-magic1{
+        width: 73vh;
+        height:73vh;
+    }
+}
+
+.carousel-indicators .active{
+    padding: 0px 0;
+    margin: 7px 0;
+    margin-top: -18px;
+}
+
+#D{
+    margin-top:-2px;
+}

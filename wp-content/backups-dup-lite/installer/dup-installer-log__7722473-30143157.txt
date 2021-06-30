@@ -1,0 +1,493 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 02:33:17
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.28                                |7.3.28
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2021-06-30 14:31:57
+WP VERSION__________: 5.7
+DUP VERSION_________: 1.4.0
+DB__________________: 5.7.23
+DB TABLES___________: 18
+DB ROWS_____________: 401
+DB FILE SIZE________: 960.27KB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.28 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.3.28
+DOC ROOT____________: "C:/xampp/htdocs/rojo_v3"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/rojo_v3/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/rojo_v3/20210407_rojopublicidade_[HASH]_20210630143157_archive.zip"
+SIZE________________: 48.69MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/rojo_v3/20210407_rojopublicidade_[HASH]_20210630143157_archive.zip"
+SIZE________________: 48.69MBFile timestamp set to Current: 2021-06-30 14:33:22
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 02:33:22 - RUNTIME: 5.8065 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 02:33:42
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.19 -- Build Server: 5.7.23
+FILE SIZE:	dup-database__[HASH].sql (800.56KB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/rojo_v3/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	182
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (152)
+wp_postmeta: (65)
+wp_posts: (22)
+wp_term_relationships: (1)
+wp_term_taxonomy: (1)
+wp_termmeta: (0)
+wp_terms: (1)
+wp_usermeta: (50)
+wp_users: (2)
+wp_yoast_indexable: (26)
+wp_yoast_indexable_hierarchy: (22)
+wp_yoast_migrations: (21)
+wp_yoast_primary_term: (0)
+wp_yoast_seo_links: (1)
+Removed '36' cache/transient rows
+
+INSERT DATA RUNTIME: 5.1466 sec.
+STEP-2 COMPLETE @ 02:33:48 - RUNTIME: 5.1825 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 02:33:50
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Rojo Publicidade"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home4/rojoco31/public_html/SITES/rojo_novo/V3"
+path_new______________: "C:/xampp/htdocs/rojo_v3"
+siteurl_______________: "http://localhost/rojo_v3"
+url_old_______________: "https://rojocomunicacao.com.br/SITES/rojo_novo/V3"
+url_new_______________: "http://localhost/rojo_v3"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/rojoco31/public_html/SITES/rojo_novo/V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  2:"\/home4\/rojoco31\/public_html\/SITES\/rojo_novo\/V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  3:"%2Fhome4%2Frojoco31%2Fpublic_html%2FSITES%2Frojo_novo%2FV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  4:"\home4\rojoco31\public_html\SITES\rojo_novo\V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  5:"\\home4\\rojoco31\\public_html\\SITES\\rojo_novo\\V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  6:"%5Chome4%5Crojoco31%5Cpublic_html%5CSITES%5Crojo_novo%5CV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  7:"//rojocomunicacao.com.br/SITES/rojo_novo/V3" =====> "//localhost/rojo_v3"
+	SEARCH  8:"\/\/rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH  9:"%2F%2Frojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 10:"//www.rojocomunicacao.com.br/SITES/rojo_novo/V3" => "//localhost/rojo_v3"
+	SEARCH 11:"\/\/www.rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH 12:"%2F%2Fwww.rojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 13:"https://localhost/rojo_v3" =======================> "http://localhost/rojo_v3"
+	SEARCH 14:"https:\/\/localhost\/rojo_v3" ====================> "http:\/\/localhost\/rojo_v3"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Frojo_v3" ===============> "http%3A%2F%2Flocalhost%2Frojo_v3"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   152][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/rojoco31/public_html/SITES/rojo_novo/V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  2:"\/home4\/rojoco31\/public_html\/SITES\/rojo_novo\/V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  3:"%2Fhome4%2Frojoco31%2Fpublic_html%2FSITES%2Frojo_novo%2FV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  4:"\home4\rojoco31\public_html\SITES\rojo_novo\V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  5:"\\home4\\rojoco31\\public_html\\SITES\\rojo_novo\\V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  6:"%5Chome4%5Crojoco31%5Cpublic_html%5CSITES%5Crojo_novo%5CV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  7:"//rojocomunicacao.com.br/SITES/rojo_novo/V3" =====> "//localhost/rojo_v3"
+	SEARCH  8:"\/\/rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH  9:"%2F%2Frojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 10:"//www.rojocomunicacao.com.br/SITES/rojo_novo/V3" => "//localhost/rojo_v3"
+	SEARCH 11:"\/\/www.rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH 12:"%2F%2Fwww.rojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 13:"https://localhost/rojo_v3" =======================> "http://localhost/rojo_v3"
+	SEARCH 14:"https:\/\/localhost\/rojo_v3" ====================> "http:\/\/localhost\/rojo_v3"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Frojo_v3" ===============> "http%3A%2F%2Flocalhost%2Frojo_v3"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:    65][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/rojoco31/public_html/SITES/rojo_novo/V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  2:"\/home4\/rojoco31\/public_html\/SITES\/rojo_novo\/V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  3:"%2Fhome4%2Frojoco31%2Fpublic_html%2FSITES%2Frojo_novo%2FV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  4:"\home4\rojoco31\public_html\SITES\rojo_novo\V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  5:"\\home4\\rojoco31\\public_html\\SITES\\rojo_novo\\V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  6:"%5Chome4%5Crojoco31%5Cpublic_html%5CSITES%5Crojo_novo%5CV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  7:"//rojocomunicacao.com.br/SITES/rojo_novo/V3" =====> "//localhost/rojo_v3"
+	SEARCH  8:"\/\/rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH  9:"%2F%2Frojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 10:"//www.rojocomunicacao.com.br/SITES/rojo_novo/V3" => "//localhost/rojo_v3"
+	SEARCH 11:"\/\/www.rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH 12:"%2F%2Fwww.rojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 13:"https://localhost/rojo_v3" =======================> "http://localhost/rojo_v3"
+	SEARCH 14:"https:\/\/localhost\/rojo_v3" ====================> "http:\/\/localhost\/rojo_v3"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Frojo_v3" ===============> "http%3A%2F%2Flocalhost%2Frojo_v3"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/rojoco31/public_html/SITES/rojo_novo/V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  2:"\/home4\/rojoco31\/public_html\/SITES\/rojo_novo\/V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  3:"%2Fhome4%2Frojoco31%2Fpublic_html%2FSITES%2Frojo_novo%2FV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  4:"\home4\rojoco31\public_html\SITES\rojo_novo\V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  5:"\\home4\\rojoco31\\public_html\\SITES\\rojo_novo\\V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  6:"%5Chome4%5Crojoco31%5Cpublic_html%5CSITES%5Crojo_novo%5CV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  7:"//rojocomunicacao.com.br/SITES/rojo_novo/V3" =====> "//localhost/rojo_v3"
+	SEARCH  8:"\/\/rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH  9:"%2F%2Frojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 10:"//www.rojocomunicacao.com.br/SITES/rojo_novo/V3" => "//localhost/rojo_v3"
+	SEARCH 11:"\/\/www.rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH 12:"%2F%2Fwww.rojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 13:"https://localhost/rojo_v3" =======================> "http://localhost/rojo_v3"
+	SEARCH 14:"https:\/\/localhost\/rojo_v3" ====================> "http:\/\/localhost\/rojo_v3"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Frojo_v3" ===============> "http%3A%2F%2Flocalhost%2Frojo_v3"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/rojoco31/public_html/SITES/rojo_novo/V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  2:"\/home4\/rojoco31\/public_html\/SITES\/rojo_novo\/V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  3:"%2Fhome4%2Frojoco31%2Fpublic_html%2FSITES%2Frojo_novo%2FV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  4:"\home4\rojoco31\public_html\SITES\rojo_novo\V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  5:"\\home4\\rojoco31\\public_html\\SITES\\rojo_novo\\V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  6:"%5Chome4%5Crojoco31%5Cpublic_html%5CSITES%5Crojo_novo%5CV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  7:"//rojocomunicacao.com.br/SITES/rojo_novo/V3" =====> "//localhost/rojo_v3"
+	SEARCH  8:"\/\/rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH  9:"%2F%2Frojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 10:"//www.rojocomunicacao.com.br/SITES/rojo_novo/V3" => "//localhost/rojo_v3"
+	SEARCH 11:"\/\/www.rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH 12:"%2F%2Fwww.rojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 13:"https://localhost/rojo_v3" =======================> "http://localhost/rojo_v3"
+	SEARCH 14:"https:\/\/localhost\/rojo_v3" ====================> "http:\/\/localhost\/rojo_v3"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Frojo_v3" ===============> "http%3A%2F%2Flocalhost%2Frojo_v3"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/rojoco31/public_html/SITES/rojo_novo/V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  2:"\/home4\/rojoco31\/public_html\/SITES\/rojo_novo\/V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  3:"%2Fhome4%2Frojoco31%2Fpublic_html%2FSITES%2Frojo_novo%2FV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  4:"\home4\rojoco31\public_html\SITES\rojo_novo\V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  5:"\\home4\\rojoco31\\public_html\\SITES\\rojo_novo\\V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  6:"%5Chome4%5Crojoco31%5Cpublic_html%5CSITES%5Crojo_novo%5CV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  7:"//rojocomunicacao.com.br/SITES/rojo_novo/V3" =====> "//localhost/rojo_v3"
+	SEARCH  8:"\/\/rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH  9:"%2F%2Frojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 10:"//www.rojocomunicacao.com.br/SITES/rojo_novo/V3" => "//localhost/rojo_v3"
+	SEARCH 11:"\/\/www.rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH 12:"%2F%2Fwww.rojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 13:"https://localhost/rojo_v3" =======================> "http://localhost/rojo_v3"
+	SEARCH 14:"https:\/\/localhost\/rojo_v3" ====================> "http:\/\/localhost\/rojo_v3"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Frojo_v3" ===============> "http%3A%2F%2Flocalhost%2Frojo_v3"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/rojoco31/public_html/SITES/rojo_novo/V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  2:"\/home4\/rojoco31\/public_html\/SITES\/rojo_novo\/V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  3:"%2Fhome4%2Frojoco31%2Fpublic_html%2FSITES%2Frojo_novo%2FV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  4:"\home4\rojoco31\public_html\SITES\rojo_novo\V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  5:"\\home4\\rojoco31\\public_html\\SITES\\rojo_novo\\V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  6:"%5Chome4%5Crojoco31%5Cpublic_html%5CSITES%5Crojo_novo%5CV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  7:"//rojocomunicacao.com.br/SITES/rojo_novo/V3" =====> "//localhost/rojo_v3"
+	SEARCH  8:"\/\/rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH  9:"%2F%2Frojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 10:"//www.rojocomunicacao.com.br/SITES/rojo_novo/V3" => "//localhost/rojo_v3"
+	SEARCH 11:"\/\/www.rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH 12:"%2F%2Fwww.rojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 13:"https://localhost/rojo_v3" =======================> "http://localhost/rojo_v3"
+	SEARCH 14:"https:\/\/localhost\/rojo_v3" ====================> "http:\/\/localhost\/rojo_v3"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Frojo_v3" ===============> "http%3A%2F%2Flocalhost%2Frojo_v3"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    50][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/rojoco31/public_html/SITES/rojo_novo/V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  2:"\/home4\/rojoco31\/public_html\/SITES\/rojo_novo\/V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  3:"%2Fhome4%2Frojoco31%2Fpublic_html%2FSITES%2Frojo_novo%2FV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  4:"\home4\rojoco31\public_html\SITES\rojo_novo\V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  5:"\\home4\\rojoco31\\public_html\\SITES\\rojo_novo\\V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  6:"%5Chome4%5Crojoco31%5Cpublic_html%5CSITES%5Crojo_novo%5CV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  7:"//rojocomunicacao.com.br/SITES/rojo_novo/V3" =====> "//localhost/rojo_v3"
+	SEARCH  8:"\/\/rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH  9:"%2F%2Frojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 10:"//www.rojocomunicacao.com.br/SITES/rojo_novo/V3" => "//localhost/rojo_v3"
+	SEARCH 11:"\/\/www.rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH 12:"%2F%2Fwww.rojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 13:"https://localhost/rojo_v3" =======================> "http://localhost/rojo_v3"
+	SEARCH 14:"https:\/\/localhost\/rojo_v3" ====================> "http:\/\/localhost\/rojo_v3"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Frojo_v3" ===============> "http%3A%2F%2Flocalhost%2Frojo_v3"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/rojoco31/public_html/SITES/rojo_novo/V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  2:"\/home4\/rojoco31\/public_html\/SITES\/rojo_novo\/V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  3:"%2Fhome4%2Frojoco31%2Fpublic_html%2FSITES%2Frojo_novo%2FV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  4:"\home4\rojoco31\public_html\SITES\rojo_novo\V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  5:"\\home4\\rojoco31\\public_html\\SITES\\rojo_novo\\V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  6:"%5Chome4%5Crojoco31%5Cpublic_html%5CSITES%5Crojo_novo%5CV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  7:"//rojocomunicacao.com.br/SITES/rojo_novo/V3" =====> "//localhost/rojo_v3"
+	SEARCH  8:"\/\/rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH  9:"%2F%2Frojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 10:"//www.rojocomunicacao.com.br/SITES/rojo_novo/V3" => "//localhost/rojo_v3"
+	SEARCH 11:"\/\/www.rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH 12:"%2F%2Fwww.rojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 13:"https://localhost/rojo_v3" =======================> "http://localhost/rojo_v3"
+	SEARCH 14:"https:\/\/localhost\/rojo_v3" ====================> "http:\/\/localhost\/rojo_v3"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Frojo_v3" ===============> "http%3A%2F%2Flocalhost%2Frojo_v3"
+
+EVALUATE TABLE: "wp_yoast_indexable"______________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/rojoco31/public_html/SITES/rojo_novo/V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  2:"\/home4\/rojoco31\/public_html\/SITES\/rojo_novo\/V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  3:"%2Fhome4%2Frojoco31%2Fpublic_html%2FSITES%2Frojo_novo%2FV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  4:"\home4\rojoco31\public_html\SITES\rojo_novo\V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  5:"\\home4\\rojoco31\\public_html\\SITES\\rojo_novo\\V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  6:"%5Chome4%5Crojoco31%5Cpublic_html%5CSITES%5Crojo_novo%5CV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  7:"//rojocomunicacao.com.br/SITES/rojo_novo/V3" =====> "//localhost/rojo_v3"
+	SEARCH  8:"\/\/rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH  9:"%2F%2Frojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 10:"//www.rojocomunicacao.com.br/SITES/rojo_novo/V3" => "//localhost/rojo_v3"
+	SEARCH 11:"\/\/www.rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH 12:"%2F%2Fwww.rojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 13:"https://localhost/rojo_v3" =======================> "http://localhost/rojo_v3"
+	SEARCH 14:"https:\/\/localhost\/rojo_v3" ====================> "http:\/\/localhost\/rojo_v3"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Frojo_v3" ===============> "http%3A%2F%2Flocalhost%2Frojo_v3"
+
+EVALUATE TABLE: "wp_yoast_indexable_hierarchy"____________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/rojoco31/public_html/SITES/rojo_novo/V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  2:"\/home4\/rojoco31\/public_html\/SITES\/rojo_novo\/V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  3:"%2Fhome4%2Frojoco31%2Fpublic_html%2FSITES%2Frojo_novo%2FV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  4:"\home4\rojoco31\public_html\SITES\rojo_novo\V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  5:"\\home4\\rojoco31\\public_html\\SITES\\rojo_novo\\V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  6:"%5Chome4%5Crojoco31%5Cpublic_html%5CSITES%5Crojo_novo%5CV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  7:"//rojocomunicacao.com.br/SITES/rojo_novo/V3" =====> "//localhost/rojo_v3"
+	SEARCH  8:"\/\/rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH  9:"%2F%2Frojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 10:"//www.rojocomunicacao.com.br/SITES/rojo_novo/V3" => "//localhost/rojo_v3"
+	SEARCH 11:"\/\/www.rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH 12:"%2F%2Fwww.rojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 13:"https://localhost/rojo_v3" =======================> "http://localhost/rojo_v3"
+	SEARCH 14:"https:\/\/localhost\/rojo_v3" ====================> "http:\/\/localhost\/rojo_v3"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Frojo_v3" ===============> "http%3A%2F%2Flocalhost%2Frojo_v3"
+
+EVALUATE TABLE: "wp_yoast_migrations"_____________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/rojoco31/public_html/SITES/rojo_novo/V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  2:"\/home4\/rojoco31\/public_html\/SITES\/rojo_novo\/V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  3:"%2Fhome4%2Frojoco31%2Fpublic_html%2FSITES%2Frojo_novo%2FV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  4:"\home4\rojoco31\public_html\SITES\rojo_novo\V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  5:"\\home4\\rojoco31\\public_html\\SITES\\rojo_novo\\V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  6:"%5Chome4%5Crojoco31%5Cpublic_html%5CSITES%5Crojo_novo%5CV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  7:"//rojocomunicacao.com.br/SITES/rojo_novo/V3" =====> "//localhost/rojo_v3"
+	SEARCH  8:"\/\/rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH  9:"%2F%2Frojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 10:"//www.rojocomunicacao.com.br/SITES/rojo_novo/V3" => "//localhost/rojo_v3"
+	SEARCH 11:"\/\/www.rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH 12:"%2F%2Fwww.rojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 13:"https://localhost/rojo_v3" =======================> "http://localhost/rojo_v3"
+	SEARCH 14:"https:\/\/localhost\/rojo_v3" ====================> "http:\/\/localhost\/rojo_v3"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Frojo_v3" ===============> "http%3A%2F%2Flocalhost%2Frojo_v3"
+
+EVALUATE TABLE: "wp_yoast_primary_term"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/rojoco31/public_html/SITES/rojo_novo/V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  2:"\/home4\/rojoco31\/public_html\/SITES\/rojo_novo\/V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  3:"%2Fhome4%2Frojoco31%2Fpublic_html%2FSITES%2Frojo_novo%2FV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  4:"\home4\rojoco31\public_html\SITES\rojo_novo\V3" ==> "C:/xampp/htdocs/rojo_v3"
+	SEARCH  5:"\\home4\\rojoco31\\public_html\\SITES\\rojo_novo\\V3" => "C:\/xampp\/htdocs\/rojo_v3"
+	SEARCH  6:"%5Chome4%5Crojoco31%5Cpublic_html%5CSITES%5Crojo_novo%5CV3" => "C%3A%2Fxampp%2Fhtdocs%2Frojo_v3"
+	SEARCH  7:"//rojocomunicacao.com.br/SITES/rojo_novo/V3" =====> "//localhost/rojo_v3"
+	SEARCH  8:"\/\/rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH  9:"%2F%2Frojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 10:"//www.rojocomunicacao.com.br/SITES/rojo_novo/V3" => "//localhost/rojo_v3"
+	SEARCH 11:"\/\/www.rojocomunicacao.com.br\/SITES\/rojo_novo\/V3" => "\/\/localhost\/rojo_v3"
+	SEARCH 12:"%2F%2Fwww.rojocomunicacao.com.br%2FSITES%2Frojo_novo%2FV3" => "%2F%2Flocalhost%2Frojo_v3"
+	SEARCH 13:"https://localhost/rojo_v3" =======================> "http://localhost/rojo_v3"
+	SEARCH 14:"https:\/\/localhost\/rojo_v3" ====================> "http:\/\/localhost\/rojo_v3"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Frojo_v3" ===============> "http%3A%2F%2Flocalhost%2Frojo_v3"
+--------------------------------------
+SCANNED:	Tables:18 	|	 Rows:365 	|	 Cells:3038 
+UPDATED:	Tables:6 	|	 Rows:53 	|	 Cells:64 
+ERRORS:		0 
+RUNTIME:	0.685000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 02:33:50 - RUNTIME: 0.7378 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

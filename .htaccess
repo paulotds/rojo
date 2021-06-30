@@ -1,0 +1,13 @@
+#This Apache config file was created by Duplicator Installer on 2021-06-30 14:33:50.
+#The original can be found in archived file with the name .htaccess__[HASH]
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /rojo_v3/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /rojo_v3/index.php [L]
+</IfModule>
+# END WordPress
